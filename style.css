@@ -10,6 +10,9 @@
 :root{--ground:#0E0E0E;--card:#1A1A1A;--line:#2A2A2A;--text:#F4F4F0;--dim:#9A9A96;--work:#D4FF3A;--rest:#5AA8FF;--long:#B58CFF;
 --display:Anton,Oswald,Impact,sans-serif;--body:Archivo,Golos,system-ui,sans-serif}
 html[lang=ru]{--display:Oswald,Anton,Impact,sans-serif;--body:Golos,Archivo,system-ui,sans-serif}
+html[lang=ja]{--display:Anton,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;--body:Archivo,"Hiragino Sans","Noto Sans JP","Yu Gothic",system-ui,sans-serif}
+html[lang=ja] h1,html[lang=ja] h2,html[lang=ja] .card b{font-weight:800;letter-spacing:0}
+html[lang=ja] body{line-break:strict;word-break:normal}
 *{box-sizing:border-box}
 html{background:var(--ground);color:var(--text);-webkit-text-size-adjust:100%}
 body{margin:0;overflow-wrap:break-word;font:400 17px/1.55 var(--body);background:var(--ground)}
@@ -43,3 +46,5 @@ html[lang=ru] .card b{font-weight:700}
 .meta{color:var(--dim);font-size:14px}
 footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--dim);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 18px}
 footer a{color:var(--dim)}
+.langs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;width:100%}
+.langs a[aria-current]{color:var(--text);text-decoration:none}
