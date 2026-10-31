@@ -13,8 +13,8 @@ in 9 languages — about the app, privacy policy, support:
 - Polski: https://grishaster80.github.io/rolltimer/pl/ · [Prywatność](https://grishaster80.github.io/rolltimer/pl/privacy/) · [Pomoc](https://grishaster80.github.io/rolltimer/pl/support/)
 - 日本語: https://grishaster80.github.io/rolltimer/ja/ · [プライバシー](https://grishaster80.github.io/rolltimer/ja/privacy/) · [サポート](https://grishaster80.github.io/rolltimer/ja/support/)
 
-This repository only holds the published pages (HTML, CSS, the app's open-licensed fonts and its icon).
-It contains no app code. Contact: grshaster80@gmail.com
+This repository holds the published pages (HTML, CSS, the app's open-licensed fonts and its icon) and the signed Android APK for direct download.
+It contains no app source code. Contact: grshaster80@gmail.com
 
 Fonts: Anton, Archivo, Oswald, Golos Text — SIL Open Font License 1.1 (licences in `fonts/`). Japanese pages use the
 system's Japanese font.
