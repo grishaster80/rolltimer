@@ -40,7 +40,7 @@ h3{font-size:18px;margin:26px 0 6px}
 p,li{color:#DADAD5}
 .lede{font-size:20px;color:var(--text);max-width:36em}
 .hero{display:grid;gap:24px}
-.hero{grid-template-columns:1fr 230px;align-items:center;gap:32px}.hero .hero-screen{width:230px;height:auto;border-radius:28px;border:5px solid #34362C;box-shadow:0 20px 70px #D4FF3A15}@media(max-width:600px){.hero{grid-template-columns:1fr}.hero .hero-screen{display:none}}
+.hero{grid-template-columns:1fr 230px;align-items:center;gap:32px}.hero .hero-screen{width:230px;height:auto;border-radius:28px;border:5px solid #34362C;box-shadow:0 20px 70px #D4FF3A15}@media(max-width:600px){.hero{grid-template-columns:1fr}.hero .hero-screen{width:min(260px,100%);justify-self:center}}
 .phases{display:flex;gap:8px;margin:28px 0}
 .phases span{flex:1;min-width:0;overflow-wrap:anywhere;padding:14px 12px;border-radius:14px;color:#0E0E0E;font:800 13px/1 var(--body);letter-spacing:.12em;text-transform:uppercase}
 .stores{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}
