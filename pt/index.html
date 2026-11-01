@@ -18,6 +18,7 @@
 <link rel="alternate" hreflang="ja" href="https://grishaster80.github.io/rolltimer/ja/">
 <link rel="alternate" hreflang="x-default" href="https://grishaster80.github.io/rolltimer/">
 <link rel="stylesheet" href="/rolltimer/style.css">
+<script defer src="/rolltimer/analytics.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -31,13 +32,18 @@
 <img class="hero-screen" src="/rolltimer/screens/pt-BR.png" alt="Timer de rounds e intervalos para BJJ, sparring e circuitos." width="240" height="522">
 </div>
 <div class="phases"><span style="background:var(--work)">Trabalho</span><span style="background:var(--rest)">Descanso</span><span style="background:var(--long)">Descanso longo</span></div>
-<div class="stores" id="download"><a class="download apple" href="https://apps.apple.com/app/id6820404902"><span>Baixar na App Store</span><small>iPhone · iOS 17+</small><b aria-hidden="true">↗</b></a><a class="download android" href="/rolltimer/downloads/roll-timer-1.1.0.apk" download><span>Baixar para Android</span><small>APK direto · Android 12+</small><b aria-hidden="true">↓</b></a></div>
-<p class="secondary-store"><a href="https://www.rustore.ru/catalog/app/com.rolltimer.app">Também disponível na RuStore ↗</a></p>
+<div class="stores" id="download"><a class="download apple" data-analytics="app_store" href="https://apps.apple.com/app/id6820404902"><span>Baixar na App Store</span><small>iPhone · iOS 17+</small><b aria-hidden="true">↗</b></a><a class="download android" data-analytics="android_apk" href="/rolltimer/downloads/roll-timer-1.2.0.apk" download><span>Baixar para Android</span><small>APK direto · Android 12+</small><b aria-hidden="true">↓</b></a></div>
+<p class="secondary-store"><a data-analytics="rustore" href="https://www.rustore.ru/catalog/app/com.rolltimer.app">Também disponível na RuStore ↗</a></p>
 <details class="install"><summary>APK direto · Android 12+</summary><p>Baixe e abra o APK. Quando o Android solicitar, permita que o navegador instale este app.</p></details>
 <div class="grid"><div class="card"><b>Um toque para começar</b><p>Sparring 6 × 5:00, Drill 8 × 3:00 e Circuito 3 × 5 × 0:40 já vêm prontos no primeiro uso.</p></div><div class="card"><b>Leia do outro lado do tatame</b><p>Números enormes e a tela inteira na cor da fase: verde-limão é trabalho, azul é descanso, roxo é descanso longo.</p></div><div class="card"><b>Personalizado quando precisar</b><p>Até 20 circuitos de 50 rounds. Altere qualquer round ou descanso, um a um.</p></div><div class="card"><b>Um som para cada sinal</b><p>38 sons originais, com som e volume para cada momento, e avisos por voz opcionais.</p></div><div class="card"><b>Continua com a tela bloqueada</b><p>Atividade ao Vivo e Dynamic Island no iPhone, notificação ao vivo no Android.</p></div><div class="card"><b>Offline e privado</b><p>Sem conta, sem anúncios, sem rastreamento. Em 9 idiomas.</p></div></div>
 <p class="meta">iPhone com iOS 17 ou posterior · Android 12 ou posterior</p>
 
-<footer><span>© 2026 Grigoriy Shimichev</span><a href="/rolltimer/pt/privacy/">Privacidade</a><a href="/rolltimer/pt/support/">Suporte</a><a href="mailto:grshaster80@gmail.com">grshaster80@gmail.com</a><nav class="langs" id="languages" aria-label="Language"><a href="/rolltimer/" hreflang="en" lang="en">English</a><a href="/rolltimer/ru/" hreflang="ru" lang="ru">Русский</a><a href="/rolltimer/pt/" hreflang="pt-BR" lang="pt-BR" aria-current="true">Português</a><a href="/rolltimer/es/" hreflang="es" lang="es">Español</a><a href="/rolltimer/fr/" hreflang="fr" lang="fr">Français</a><a href="/rolltimer/de/" hreflang="de" lang="de">Deutsch</a><a href="/rolltimer/it/" hreflang="it" lang="it">Italiano</a><a href="/rolltimer/pl/" hreflang="pl" lang="pl">Polski</a><a href="/rolltimer/ja/" hreflang="ja" lang="ja">日本語</a></nav></footer>
+<footer><span>© 2026 Grigoriy Shimichev</span><a href="/rolltimer/pt/privacy/">Privacidade</a><a href="/rolltimer/pt/support/">Suporte</a><a href="mailto:grshaster80@gmail.com">grshaster80@gmail.com</a><nav class="langs" id="languages" aria-label="Language"><a href="/rolltimer/" hreflang="en" lang="en">English</a><a href="/rolltimer/ru/" hreflang="ru" lang="ru">Русский</a><a href="/rolltimer/pt/" hreflang="pt-BR" lang="pt-BR" aria-current="true">Português</a><a href="/rolltimer/es/" hreflang="es" lang="es">Español</a><a href="/rolltimer/fr/" hreflang="fr" lang="fr">Français</a><a href="/rolltimer/de/" hreflang="de" lang="de">Deutsch</a><a href="/rolltimer/it/" hreflang="it" lang="it">Italiano</a><a href="/rolltimer/pl/" hreflang="pl" lang="pl">Polski</a><a href="/rolltimer/ja/" hreflang="ja" lang="ja">日本語</a></nav><button type="button" id="analytics-settings">Preferências de análise</button></footer>
 </div>
+<aside id="analytics-consent" class="analytics-consent" aria-label="Preferências de análise" hidden>
+<p>Permitir que o Google Analytics meça visitas e cliques em links? Cookies opcionais ajudam a melhorar este site. Os apps não usam análise. <a href="/rolltimer/pt/privacy/#website-analytics">Privacidade</a></p>
+<div><button type="button" id="analytics-accept">Permitir análise</button>
+<button type="button" id="analytics-reject">Recusar análise</button></div>
+</aside>
 </body>
 </html>

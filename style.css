@@ -1,3 +1,11 @@
+[hidden]{display:none!important}
+.analytics-consent{position:fixed;bottom:16px;left:16px;right:16px;max-width:720px;margin:auto;background:#1A1A1A;border:1px solid #9A9A96;border-radius:16px;padding:18px;box-shadow:0 6px 40px #000;z-index:20;max-height:85vh;overflow:auto}
+.analytics-consent p{margin:0 0 14px;font-size:15px}
+.analytics-consent div{display:flex;flex-wrap:wrap;gap:12px}
+.analytics-consent button,#analytics-settings{font:inherit;cursor:pointer;border:1px solid #9A9A96;border-radius:9px;padding:10px 16px;background:#1A1A1A;color:#F4F4F0}
+.analytics-consent button:focus-visible,#analytics-settings:focus-visible{outline:3px solid #5AA8FF;outline-offset:3px}
+footer #analytics-settings{font-size:14px;padding:2px 8px}
+
 @font-face{font-family:Anton;src:url(/rolltimer/fonts/anton_regular.ttf) format("truetype");font-display:swap}
 @font-face{font-family:Archivo;font-weight:400;src:url(/rolltimer/fonts/archivo_400.ttf) format("truetype");font-display:swap}
 @font-face{font-family:Archivo;font-weight:700;src:url(/rolltimer/fonts/archivo_700.ttf) format("truetype");font-display:swap}

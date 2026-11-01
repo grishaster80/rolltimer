@@ -18,6 +18,7 @@
 <link rel="alternate" hreflang="ja" href="https://grishaster80.github.io/rolltimer/ja/">
 <link rel="alternate" hreflang="x-default" href="https://grishaster80.github.io/rolltimer/">
 <link rel="stylesheet" href="/rolltimer/style.css">
+<script defer src="/rolltimer/analytics.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -31,13 +32,18 @@
 <img class="hero-screen" src="/rolltimer/screens/ja.png" alt="柔術、スパーリング、サーキットのためのラウンド＆インターバルタイマー。" width="240" height="522">
 </div>
 <div class="phases"><span style="background:var(--work)">ワーク</span><span style="background:var(--rest)">レスト</span><span style="background:var(--long)">ロングレスト</span></div>
-<div class="stores" id="download"><a class="download apple" href="https://apps.apple.com/app/id6820404902"><span>App Storeからダウンロード</span><small>iPhone · iOS 17+</small><b aria-hidden="true">↗</b></a><a class="download android" href="/rolltimer/downloads/roll-timer-1.1.0.apk" download><span>Android版をダウンロード</span><small>APKを直接入手 · Android 12以降</small><b aria-hidden="true">↓</b></a></div>
-<p class="secondary-store"><a href="https://www.rustore.ru/catalog/app/com.rolltimer.app">RuStoreからも入手できます ↗</a></p>
+<div class="stores" id="download"><a class="download apple" data-analytics="app_store" href="https://apps.apple.com/app/id6820404902"><span>App Storeからダウンロード</span><small>iPhone · iOS 17+</small><b aria-hidden="true">↗</b></a><a class="download android" data-analytics="android_apk" href="/rolltimer/downloads/roll-timer-1.2.0.apk" download><span>Android版をダウンロード</span><small>APKを直接入手 · Android 12以降</small><b aria-hidden="true">↓</b></a></div>
+<p class="secondary-store"><a data-analytics="rustore" href="https://www.rustore.ru/catalog/app/com.rolltimer.app">RuStoreからも入手できます ↗</a></p>
 <details class="install"><summary>APKを直接入手 · Android 12以降</summary><p>APKをダウンロードして開きます。Androidから確認されたら、ブラウザによるこのアプリのインストールを許可してください。</p></details>
 <div class="grid"><div class="card"><b>ワンタップで開始</b><p>スパーリング 6 × 5:00、打ち込み 8 × 3:00、サーキット 3 × 5 × 0:40を初回起動時から用意しています。</p></div><div class="card"><b>マットの端からでも読める</b><p>大きな数字と画面いっぱいのフェーズカラー。ワークはライム、レストはブルー、ロングレストはバイオレット。</p></div><div class="card"><b>必要なときはカスタム</b><p>最大20セット×50ラウンド。ラウンドやレストを1つずつ変更できます。</p></div><div class="card"><b>合図ごとに選べるサウンド</b><p>38種類のオリジナルサウンド。場面ごとにサウンドと音量を設定でき、音声ガイドも使えます。</p></div><div class="card"><b>ロック中も止まらない</b><p>iPhoneではライブアクティビティとDynamic Island、Androidでは実行中の通知に表示。</p></div><div class="card"><b>オフラインで安心</b><p>アカウント不要、広告なし、トラッキングなし。9言語に対応。</p></div></div>
 <p class="meta">iOS 17以降のiPhone · Android 12以降</p>
 
-<footer><span>© 2026 Grigoriy Shimichev</span><a href="/rolltimer/ja/privacy/">プライバシー</a><a href="/rolltimer/ja/support/">サポート</a><a href="mailto:grshaster80@gmail.com">grshaster80@gmail.com</a><nav class="langs" id="languages" aria-label="Language"><a href="/rolltimer/" hreflang="en" lang="en">English</a><a href="/rolltimer/ru/" hreflang="ru" lang="ru">Русский</a><a href="/rolltimer/pt/" hreflang="pt-BR" lang="pt-BR">Português</a><a href="/rolltimer/es/" hreflang="es" lang="es">Español</a><a href="/rolltimer/fr/" hreflang="fr" lang="fr">Français</a><a href="/rolltimer/de/" hreflang="de" lang="de">Deutsch</a><a href="/rolltimer/it/" hreflang="it" lang="it">Italiano</a><a href="/rolltimer/pl/" hreflang="pl" lang="pl">Polski</a><a href="/rolltimer/ja/" hreflang="ja" lang="ja" aria-current="true">日本語</a></nav></footer>
+<footer><span>© 2026 Grigoriy Shimichev</span><a href="/rolltimer/ja/privacy/">プライバシー</a><a href="/rolltimer/ja/support/">サポート</a><a href="mailto:grshaster80@gmail.com">grshaster80@gmail.com</a><nav class="langs" id="languages" aria-label="Language"><a href="/rolltimer/" hreflang="en" lang="en">English</a><a href="/rolltimer/ru/" hreflang="ru" lang="ru">Русский</a><a href="/rolltimer/pt/" hreflang="pt-BR" lang="pt-BR">Português</a><a href="/rolltimer/es/" hreflang="es" lang="es">Español</a><a href="/rolltimer/fr/" hreflang="fr" lang="fr">Français</a><a href="/rolltimer/de/" hreflang="de" lang="de">Deutsch</a><a href="/rolltimer/it/" hreflang="it" lang="it">Italiano</a><a href="/rolltimer/pl/" hreflang="pl" lang="pl">Polski</a><a href="/rolltimer/ja/" hreflang="ja" lang="ja" aria-current="true">日本語</a></nav><button type="button" id="analytics-settings">アクセス解析の設定</button></footer>
 </div>
+<aside id="analytics-consent" class="analytics-consent" aria-label="アクセス解析の設定" hidden>
+<p>Google アナリティクスによる訪問数とリンクのクリック数の計測を許可しますか？任意の Cookie をサイトの改善に使います。アプリではアクセス解析を行いません。 <a href="/rolltimer/ja/privacy/#website-analytics">プライバシー</a></p>
+<div><button type="button" id="analytics-accept">解析を許可</button>
+<button type="button" id="analytics-reject">解析を拒否</button></div>
+</aside>
 </body>
 </html>
